@@ -2,9 +2,10 @@
   "name": "17-modern-js-modules-tooling",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "start": "parcel 'starter/index.html'"
+    "start": "parcel 'starter/index.html'",
+    "build": "parcel build 'starter/index.html'"
   },
   "repository": {
     "type": "git",
