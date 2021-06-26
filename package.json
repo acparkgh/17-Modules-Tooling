@@ -1,0 +1,23 @@
+{
+  "name": "17-modern-js-modules-tooling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acparkgh/17-Modules-Tooling.git"
+  },
+  "author": "Andrew Park",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acparkgh/17-Modules-Tooling/issues"
+  },
+  "homepage": "https://github.com/acparkgh/17-Modules-Tooling#readme",
+  "dependencies": {
+    "leaflet": "^1.7.1",
+    "lodash-es": "^4.17.21"
+  }
+}
