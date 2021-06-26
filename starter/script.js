@@ -1,5 +1,7 @@
 
-import cloneDeep from "../node_modules/lodash-es/cloneDeep.js";
+// import cloneDeep from "../node_modules/lodash-es/cloneDeep.js";
+import cloneDeep from "lodash-es/cloneDeep.js";
+
 
 // Importing module
 // import {
@@ -39,3 +41,7 @@ stateDeepClone.user.loggedIn = false;
 console.log(state);
 console.log(stateClone);
 console.log(stateDeepClone);
+
+if (module.hot) {
+  module.hot.accept()
+};
